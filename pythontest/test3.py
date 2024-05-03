@@ -1,0 +1,9 @@
+n1 = int(input('Digite um numero: '))
+n2 = int(input('Digite outro numero: '))
+s = n1 + n2
+sub = n1 - n2
+m = n1 * n2
+d = n1 /n2
+di = n1 // n2
+ex = n1 ** n2
+print("A soma entre {}  e {} é igual a {} , \n  a subtração é igual a {}, a multiplicação é igual a {}, \n e divisao é igual a {:.3f},  a divisão inteira {},e a pontencia é {}'".format(n1,n2,s,sub,m,d,di,ex),end = ' ')
